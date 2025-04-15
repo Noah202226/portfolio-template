@@ -154,7 +154,7 @@ export const Navbar = () => {
         {/* Close Button Inside Mobile Menu */}
         <button
           onClick={() => setIsOpen(false)}
-          className="absolute top-5 right-5 text-3xl"
+          className="absolute top-20 right-20 text-3xl"
         >
           <FiX />
         </button>

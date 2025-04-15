@@ -5,22 +5,22 @@ export const Education = () => {
   return (
     <div id="education" className="hero">
       <div className="hero-content flex flex-col my-10 py-10">
-        <div className="w-full  justify-between items-center">
-          <h1 className="font-extrabold text-5xl text-center md:text-left">
+        <div className="w-full justify-between items-center">
+          <h1 className="font-extrabold text-3xl md:text-5xl text-center md:text-left">
             EDUCATION
           </h1>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3">
-          <div className="card bg-base-100 w-60 m:w-96 shadow-sm">
+          <div className="card w-80 md:w-96 shadow-sm">
             <figure className="px-10 pt-10">
               <img
                 src="/education/3.png"
                 alt="Shoes"
-                className="rounded-xl h-24 md:h-48"
+                className="rounded-xl h-36 md:h-48"
               />
             </figure>
-            <div className="card-body items-center text-center">
+            <div className="card-body  items-center text-center">
               <h2 className="card-title">St. Paul College</h2>
               <p>Bocaue</p>
               <div className="divider " />
@@ -28,12 +28,12 @@ export const Education = () => {
             </div>
           </div>
 
-          <div className="card bg-base-100 w-60 m:w-96 shadow-sm">
+          <div className="card w-80 md:w-96 shadow-sm">
             <figure className="px-10 pt-10">
               <img
                 src="/education/LCCM_Seal.png"
                 alt="Shoes"
-                className="rounded-xl h-24 md:h-48"
+                className="rounded-xl h-36 md:h-48"
               />
             </figure>
             <div className="card-body items-center text-center">
@@ -44,12 +44,12 @@ export const Education = () => {
             </div>
           </div>
 
-          <div className="card bg-base-100 w-60 m:w-96 shadow-sm">
+          <div className="card bg-base-100 w-80 md:w-96 shadow-sm">
             <figure className="px-10 pt-10">
               <img
                 src="/education/SMCM.png"
                 alt="Shoes"
-                className="rounded-xl h-24 md:h-48"
+                className="rounded-xl h-36 md:h-48"
               />
             </figure>
             <div className="card-body items-center text-center">
