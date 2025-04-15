@@ -30,12 +30,12 @@ export async function POST(req) {
 
     const mailOptions = {
       from: process.env.EMAIL_USER,
-      to: ["noaligpitan@gmail.com", "mendozaliraann@gmail.com", email],
-      subject: "New transaction process.",
+      to: ["noaligpitan@gmail.com", email],
+      subject: "Portfolio template Inquiry.",
       html: `
-        <h2 style="color: black">Thank you for message me. ${name}</h2>
-        <p><strong>Email:</strong> ${email}</p>
-        <p><strong>Product:</strong> ${message}</p>
+        <h2 style="color: black">Thank you for messaging me, ${name}</h2>
+        <p><strong>Your Email:</strong> ${email}</p>
+        <p><strong>Message:</strong> ${message}</p>
         <img src="https://votalonlj1l4oc3d.public.blob.vercel-storage.com/nayomi-logo-n33RJAwi6y7rIFSti0zSc7VVQCMTAb.jpg" alt="Payment Proof" style="max-width: 10%;" />
       `,
     };
