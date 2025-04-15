@@ -30,9 +30,7 @@ export const HeroWithCards = () => {
                   size={48}
                   style={{ justifySelf: "center", color: "#FEE502" }}
                 />
-                <h2 className="card-title text-center">
-                  Email Handling (Customer Support)
-                </h2>
+                <h2 className="card-title text-center">Email Marketing</h2>
               </div>
             </div>
           </div>
@@ -56,7 +54,9 @@ export const HeroWithCards = () => {
                   size={48}
                   style={{ justifySelf: "center", color: "#FEE502" }}
                 />
-                <h2 className="card-title">E-commerce</h2>
+                <h2 className="card-title text-center">
+                  Customer Relation Management
+                </h2>
               </div>
             </div>
           </div>
@@ -79,9 +79,28 @@ export const HeroWithCards = () => {
             seamlessly integrate into your team and contribute immediately to
             your business goals.
           </p>
-          <button className="btn bg-[#FEE502] text-[#181600] border-[#f1d800]">
-            Download CV
-          </button>
+
+          <a href="/sample-resume.pdf" target="_blank" download={true}>
+            <button className="hidden sm:block btn bg-[#FEE502] text-[#181600] border-[#f1d800]">
+              <div className="flex items-center justify-around gap-3">
+                <p>Download CV</p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="w-5 h-5 mr-2"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5 5-5M12 15V3"
+                  />
+                </svg>
+              </div>
+            </button>
+          </a>
         </div>
       </div>
     </div>

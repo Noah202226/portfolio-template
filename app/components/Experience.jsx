@@ -16,28 +16,28 @@ export const Experience = () => {
             <div className="my-2">
               <div className="w-60 h-18">
                 <p>2022</p>
-                <p>Date Entry Specialist</p>
+                <p>Data Analyst</p>
               </div>
             </div>
 
             <div className="my-2">
               <div className="w-60 h-18 ">
                 <p>2023</p>
-                <p>Orderlist Specialist</p>
+                <p>Frontend Developer</p>
               </div>
             </div>
 
             <div className="my-2">
               <div className="w-60 h-18 ">
                 <p>2024</p>
-                <p>Virtual Assistant</p>
+                <p>Backend Developer</p>
               </div>
             </div>
 
             <div className="my-2">
               <div className="w-60 h-18 ">
                 <p>2025</p>
-                <p>Shopify Manager</p>
+                <p>Fullstack manager</p>
               </div>
             </div>
 
@@ -54,7 +54,7 @@ export const Experience = () => {
               <div id="slide6.1" className="carousel-item relative w-full">
                 <div className="flex flex-col justify-center items-center">
                   <h1 className="font-bold text-4xl text-[#fbff05fa] p-2">
-                    Customer Support and Data Entries ( The Headcount )
+                    Data Analyst
                   </h1>
                   <p className="p-2">
                     The Headcount Platform offers a comprehensive range of

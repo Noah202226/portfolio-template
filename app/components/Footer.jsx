@@ -82,6 +82,7 @@ export const Footer = () => {
               placeholder="Name"
               className="input input-lg w-50 md:w-80"
               onChange={(e) => setName(e.target.value)}
+              required={true}
             />
             <input
               type="email"
@@ -90,12 +91,14 @@ export const Footer = () => {
               placeholder="Email"
               className="input input-lg w-50 md:w-80"
               onChange={(e) => setEmail(e.target.value)}
+              required={true}
             />
             <fieldset className="fieldset self-center">
               <textarea
                 className="textarea h-24 w-50 md:w-80"
                 placeholder="Message"
                 onChange={(e) => setMessage(e.target.value)}
+                required
               ></textarea>
               <div className="fieldset-label">Optional</div>
             </fieldset>

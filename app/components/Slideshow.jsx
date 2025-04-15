@@ -6,21 +6,21 @@ import { motion } from "motion/react";
 
 const testimonials = [
   {
-    name: "Transcriptionist",
+    name: "Frontend Developer",
     role: "Vibrant and encouraging enthusiasm",
     image: "https://randomuser.me/api/portraits/men/1.jpg",
     quote:
-      "Good worker. Lira followed the instructionsgiven and completed the task in a timely manner, and to the best of her ability",
+      "Good worker, followed the instructions given and completed the task in a timely manner, and to the best of her ability",
   },
   {
-    name: "Data entry",
+    name: "Backend Developer",
     role: "A truly inspiring Data Entry",
     image: "https://randomuser.me/api/portraits/women/2.jpg",
     quote:
       "Submitted on time with precision. Lira was really responsive got started quickly and completed the task quickly and to a high standard. I was impressed and I would definitely work with her again! Great work!",
   },
   {
-    name: "Virtual Assistant",
+    name: "Fullstack Engineer",
     role: "Add a one-liner testimonial",
     image: "https://randomuser.me/api/portraits/women/3.jpg",
     quote: "Great work, thank you.",

@@ -11,7 +11,7 @@ const InfiniteScroll = ({ speed = 40 }) => {
         </h2>
       </div>
 
-      <div className="scroll-wrapper">
+      <div className="scroll-wrapper hover:cursor-pointer">
         <div
           className="scroll-content"
           style={{ animationDuration: `${speed}s` }}
@@ -21,7 +21,7 @@ const InfiniteScroll = ({ speed = 40 }) => {
               {logos.map((num) => (
                 <div
                   key={`${i}-${num}`}
-                  className="w-48 h-48 flex justify-center items-center flex-shrink-0"
+                  className="w-48 h-48 flex justify-center items-center flex-shrink-0 "
                 >
                   <img
                     src={`/company-logos/${num}.jpg`}

@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi"; // Import icons for menu
+import { motion } from "motion/react";
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,7 +19,25 @@ export const Navbar = () => {
       <header className="max-w-screen-xl mx-auto p-4 flex justify-between items-center">
         <div className="flex justify-between w-fit gap-x-48">
           {/* Logo */}
-          <div className="text-2xl font-bold">LM</div>
+          <div className="text-2xl font-bold">
+            <motion.button
+              onClick={(e) => {
+                smoothScroll(e, "hero");
+                setIsOpen(false);
+              }}
+              whileHover={{
+                scale: 1.05,
+                boxShadow: "0px 8px 15px rgba(0, 0, 0, 0.1)",
+                backgroundColor: "gray", // Tailwind blue-500
+                color: "black",
+              }}
+              whileTap={{ scale: 0.95 }}
+              transition={{ type: "spring", stiffness: 300 }}
+              className="px-6 py-3 rounded-xl bg-[#FEE502] text-black font-semibold tracking-wide shadow-md"
+            >
+              NL
+            </motion.button>
+          </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden sm:flex space-x-6 text-xl">
@@ -27,29 +46,75 @@ export const Navbar = () => {
               onClick={(e) => smoothScroll(e, "hero")}
               className="text-gray-400 hover:text-white hover:underline"
             >
-              Home
+              <motion.button
+                color="red"
+                whileHover={{
+                  scale: 1.05,
+                  boxShadow: "0px 8px 15px rgba(0, 0, 0, 0.1)",
+                  backgroundColor: "gray", // Tailwind blue-500
+                  color: "black",
+                }}
+                whileTap={{ scale: 0.95 }}
+                transition={{ type: "spring", stiffness: 300 }}
+                className="px-6 py-3 rounded-xl bg-base-200 text-white font-medium tracking-wide shadow-md"
+              >
+                Home
+              </motion.button>
             </a>
             <a
               href="#contact"
               onClick={(e) => smoothScroll(e, "contact")}
               className="text-gray-400 hover:text-white hover:underline"
             >
-              Contact
+              <motion.button
+                color="red"
+                whileHover={{
+                  scale: 1.05,
+                  boxShadow: "0px 8px 15px rgba(0, 0, 0, 0.1)",
+                  backgroundColor: "gray", // Tailwind blue-500
+                  color: "black",
+                }}
+                whileTap={{ scale: 0.95 }}
+                transition={{ type: "spring", stiffness: 300 }}
+                className="px-6 py-3 rounded-xl bg-base-200 text-white font-medium tracking-wide shadow-md"
+              >
+                Contact
+              </motion.button>
             </a>
           </nav>
         </div>
 
         {/* Desktop Contact Button */}
         <div className="flex gap-2">
-          <button
-            onClick={(e) => smoothScroll(e, "contact")}
-            className="hidden sm:block btn bg-[#FEE502] text-[#181600] border-[#f1d800]"
-          >
-            Contact Me
-          </button>
+          <a href="/sample-resume.pdf" target="_blank" download={true}>
+            <motion.button
+              whileHover={{
+                scale: 1.05,
+                boxShadow: "0px 8px 15px rgba(0, 0, 0, 0.1)",
+                backgroundColor: "gray", // Tailwind blue-500
+                color: "black",
+              }}
+              whileTap={{ scale: 0.95 }}
+              transition={{ type: "spring", stiffness: 300 }}
+              className="hidden sm:block px-6 py-3 rounded-xl bg-[#FEE502] text-black font-semibold tracking-wide shadow-md"
+              onClick={(e) => smoothScroll(e, "contact")}
+            >
+              Contact Me
+            </motion.button>
+          </a>
 
-          <a href="/lira-resume.pdf" target="_blank" download={true}>
-            <button className="hidden sm:block btn bg-[#FEE502] text-[#181600] border-[#f1d800]">
+          <a href="/sample-resume.pdf" target="_blank" download={true}>
+            <motion.button
+              whileHover={{
+                scale: 1.05,
+                boxShadow: "0px 8px 15px rgba(0, 0, 0, 0.1)",
+                backgroundColor: "gray", // Tailwind blue-500
+                color: "black",
+              }}
+              whileTap={{ scale: 0.95 }}
+              transition={{ type: "spring", stiffness: 300 }}
+              className="hidden sm:block px-6 py-3 rounded-xl bg-[#FEE502] text-black font-semibold tracking-wide shadow-md"
+            >
               <div className="flex items-center justify-around gap-3">
                 <p>Download CV</p>
                 <svg
@@ -67,7 +132,7 @@ export const Navbar = () => {
                   />
                 </svg>
               </div>
-            </button>
+            </motion.button>
           </a>
         </div>
 
