@@ -12,12 +12,12 @@ export const Education = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3">
-          <div className="card bg-base-100 w-96 shadow-sm">
+          <div className="card bg-base-100 w-60 m:w-96 shadow-sm">
             <figure className="px-10 pt-10">
               <img
                 src="/education/3.png"
                 alt="Shoes"
-                className="rounded-xl h-36 md:h-48"
+                className="rounded-xl h-24 md:h-48"
               />
             </figure>
             <div className="card-body items-center text-center">
@@ -28,12 +28,12 @@ export const Education = () => {
             </div>
           </div>
 
-          <div className="card bg-base-100 w-96 shadow-sm">
+          <div className="card bg-base-100 w-60 m:w-96 shadow-sm">
             <figure className="px-10 pt-10">
               <img
                 src="/education/LCCM_Seal.png"
                 alt="Shoes"
-                className="rounded-xl h-36 md:h-48"
+                className="rounded-xl h-24 md:h-48"
               />
             </figure>
             <div className="card-body items-center text-center">
@@ -44,12 +44,12 @@ export const Education = () => {
             </div>
           </div>
 
-          <div className="card bg-base-100 w-96 shadow-sm">
+          <div className="card bg-base-100 w-60 m:w-96 shadow-sm">
             <figure className="px-10 pt-10">
               <img
                 src="/education/SMCM.png"
                 alt="Shoes"
-                className="rounded-xl h-36 md:h-48"
+                className="rounded-xl h-24 md:h-48"
               />
             </figure>
             <div className="card-body items-center text-center">
