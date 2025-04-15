@@ -1,0 +1,24 @@
+{
+  "name": "liraannva",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "motion": "^12.6.3",
+    "next": "15.2.5",
+    "nodemailer": "^6.10.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "daisyui": "^5.0.17",
+    "tailwindcss": "^4"
+  }
+}
