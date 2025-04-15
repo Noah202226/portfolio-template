@@ -29,10 +29,9 @@ export default function Hero() {
             Software Developer
           </h1>
           <p className="py-6 w-full prose font-rubik">
-            A results-driven professional with expertise in Shopify management,
-            e-commerce, data entry, email support, social media management and
-            virtual assistance. This portfolio demonstrates my skills and
-            accomplishments.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+            nostrum laudantium, vitae dolorem voluptas quaerat facere ex
+            accusantium ratione omnis?
           </p>
           <button
             onClick={(e) => smoothScroll(e, "contact")}
