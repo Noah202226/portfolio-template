@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "LIRA ANN MENDOZA",
+  title: "NOA LIGPITAN",
   description: "Portfolio website build by NOA",
 };
 

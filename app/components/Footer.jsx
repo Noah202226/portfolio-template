@@ -150,8 +150,8 @@ export const Footer = () => {
 
         <aside>
           <p>
-            Copyright © {new Date().getFullYear()} - All right reserved by LIRA
-            ANN MENDOZA
+            Copyright © {new Date().getFullYear()} - All right reserved by NOA
+            LIGPITAN
           </p>
         </aside>
 
